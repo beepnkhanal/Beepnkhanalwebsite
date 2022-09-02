@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Kaushan+Script&family=Rubik+Dirt&display=swap');
+font-family: 'Arimo', sans-serif;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Rubik Dirt', cursive;
+font-family: 'Silkscreen', cursive;
+font-family: 'Lateef', cursive;
+html{
+	scroll-behavior: smooth;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.main{
+	background-image: url(456.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height:100vh;
+	transition: -2sec;
+
+
+	animation-name: animated;
+	animation-direction: alternate-reverse;
+	animation-duration:30s ;
+	animation-fill-mode: forwards;
+	animation-iteration-count:infinite ;
+	animation-play-state: running;
+	animation-timing-function: ease-in-out;
+
+}
+
+@keyframes  animated{
+
+
+	
+	0%{
+		background-image: url(bk.jpg);
+	}
+	25%{
+		background-image: url(456.jpg);
+	}
+	50%{
+		background-image: url(bpn.jpg);
+	}
+	75%{
+		background-image: url(bpnn.jpg);
+	}
+	100%{
+		background-image: url(new.jpg);
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.icon h1{
+	background: none;
+	color: orange;
+}
+.text h1{
+	color: orange;
+	font-family: 'Architects Daughter', cursive;
+	
+	text-align: right;
+	font-size: 48px;
+	padding-top: 160px;
+	text-decoration: underline;
+	text-decoration-style: dashed;
+	text-decoration-color: orange;
+}
+.text p{
+ padding-top: 10px;
+ font-family: 'Bad Script', cursive;
+ color: red;
+
+
+	text-align: right;
+	font-size: 28px;
+	padding-right: 60px;
+	text-decoration: underline;
+	text-decoration-style: dashed;
+	text-decoration-color: red;
+
+}
+.social{
+
+
+	padding: 50px;
+	
+	color: black;
+	font-size: 34px;
+	text-align: right;
+	padding-right: 200px;
+}
+.social:hover{
+	
+	color: red;
+}
+
+.name{
+	font-size: 24px;
+}
+
+.navbar{
+	background: none;
+	text-align: center;
+	font-family: 'Kaushan Script', cursive;
+	padding: 10px 20px 30px 40px;
+	padding: float;
+	font-size: 32px;
+	text-decoration: none;
+	color: red;
+}
+.navbar a{
+	padding: 50px;
+	
+	color:beige;
+	text-decoration: none;
+
+}
+.navbar a:hover{
+	
+	color: red;
+}
+.section{
+	background: gray;
+}
+.name{
+	text-align: center;
+}
+
+
+ 
+#about{
+	margin-top: 130px;
+	background: gray;
+	height: 100vh;
+	margin-bottom: 130px;
+	background-position: center;
+
+
+}
+#about h1{
+	
+	text-align: center;
+	color: white;
+	font-size: 44px;
+
+}
+#about p{
+	margin-right: 20px;
+	margin-left: 10px;
+
+font-family: 'Silkscreen', cursive;
+	
+	background:none;
+	width: 100%;
+	margin-top: 20px;
+	font-size: 24px;
+
+	
+}
+#about img{
+	background: none;
+	height: 300px;
+	width: auto;
+	padding-left: 555px;
+	
+
+}
+#contact{
+	margin-top: 30px;
+	
+	height: 700px;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+#contact form{
+	padding-top: 50px;
+	padding-left: 10px;
+	padding: 20px 30px;
+
+}
+.data{
+	padding-top:0px;
+	background:lightblue;
+	width:50%;
+	border-radius: 50px;
+	border-color: green;
+}
+.data h1{
+	font-size: 24px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	font-family: 'Silkscreen', cursive;
+}
+
+#contact label{
+	background:lightblue;
+	color: whitesmoke;
+	display: flex;
+	font-size: 24px;
+	padding: 1px;
+	font-family: 'Lateef', cursive;
+	
+	
+	
+}
+#contact input{
+	background:white;
+	width: 50%;
+border-radius: 5px;
+border-left: 5px;
+border-style: ridge;
+border-color: black;
+
+}
+#contact button{
+	background: gray;
+margin-top: 5px;
+padding: 5px;
+border-radius: 90px;
+border-color: yellow;
+
+}
+#contact button:hover{
+	background-color: red;
+	color: black;
+	border-color: yellow;
+}
+
+#gallery{
+
+	margin-top: 30px;
+	background: yellowgreen;
+	height: 900px;
+}
+#gallery h1{
+	text-align: center;
+	color: white;
+	font-size: 44px;
+}
+#gallery img{
+
+	height: 300px;
+	padding: 70px ;
+}
+#gallery img:hover{
+	background: gray;
+	color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+	text-align: center;
+	padding: 50px;
+}
+
+
+
+
+@media screen and (max-width: 830px) {
+  body {
+    background-color: lightgreen;
+  }
+  #about{
+	
+	
+	height: 100vh;
+
+}
+
+#contact{
+	height: 100vh;
+}
+#code{
+	height: 100vh;
+}
+#about img{
+
+	background:none;
+	height: 400px;
+	width: auto;
+	padding-left: 250px;
+	
+
+}
+#about h1{
+	padding-top: 110px;
+
+	padding-left: 0px;
+	
+}
+#about p{
+	padding-left: 30px;
+	padding-right: 40px;
+	
+	width: 90%;
+	margin-top: 20px;
+	font-size: 40px;
+	
+}
+.data{
+
+	background:lightblue;
+	width:100%;
+	border-radius: 80px;
+	border-color: green;
+	padding-bottom: 50px;
+}
+.data h1{
+	font-size: 30px;
+	padding-top: 20px;
+	padding-bottom: 60px;
+	font-family: 'Silkscreen', cursive;
+	text-align: center;
+}
+
+#contact label{
+	background:lightblue;
+	color: whitesmoke;
+	display: flex;
+	font-size: 44px;
+	padding: 30px;
+	font-family: 'Lateef', cursive;
+	
+	
+	
+}
+#contact input{
+	background:white;
+	width: 50%;
+border-radius: 100px;
+border-style: ridge;
+padding-left: 50px;
+border-left: 60px;
+
+padding: 18px;
+font-size: 28px;
+
+
+}
+#contact button{
+	background: gray;
+margin-top: 50px;
+padding: 10px;
+border-radius: 90px;
+border-color: yellow;
+
+}
+#contact select{
+	background: gray;
+	background:white;
+	width: 50%;
+border-radius: 100px;
+border-style: ridge;
+padding-left: 50px;
+border-left: 60px;
+
+padding: 18px;
+font-size: 18px;
+}
+#contact button:hover{
+	background-color: red;
+	color: black;
+	border-color: yellow;
+}
+#gallery{
+
+	margin-top: 30px;
+	background: lightblue;
+	height: 60vh;
+}
+#gallery img{
+
+	height: 300px;
+	padding: 30px ;
+}
+#gallery img:hover{
+	background: yellowgreen;
+	color: red;
+}
+
+
+}
+@media screen and (max-width:818px) {
+	#home h1{
+font-size: 50px;
+color: orange;
+	}
+	#home nav a{
+		background: none;
+padding: 20px;
+text-align: left;
+
+	}
+
+}
+@media screen and (max-width: 800px){
+	.text h1{
+	
+	font-family: 'Architects Daughter', cursive;
+	
+	text-align: left;
+	font-size: 58px;
+	padding-top: 660px;
+	
+	text-decoration-color: orange;
+}
+.text p{
+ padding-top: 10px;
+ font-family: 'Bad Script', cursive;
+ color: whitesmoke;
+padding-left: 5px;
+
+	text-align: left;
+	font-size: 38px;
+	padding-right: 60px;
+	text-decoration: underline;
+	text-decoration-style: dashed;
+	text-decoration-color: whitesmoke;
+
+}
+.social{
+
+
+	padding: 90px;
+	
+	color: black;
+	font-size: 54px;
+	text-align: left;
+	padding-right: 200px;
+	border-radius: 30px;
+}
+.social:hover{
+	
+	color: red;
+}
+@media screen and (max-width:750px){
+	.data{
+
+	background:green;
+	width:100%;
+	border-radius: 50px;
+	border-color: green;
+	padding-bottom: 30px;
+}
+.data h1{
+	font-size: 24px;
+	padding-top: 10px;
+	padding-bottom: 40px;
+	font-family: 'Silkscreen', cursive;
+	text-align: center;
+}
+
+#contact label{
+	background:lightblue;
+	color: whitesmoke;
+	display: flex;
+	font-size: 34px;
+	padding: 20px;
+	font-family: 'Lateef', cursive;
+	
+	
+	
+}
+#contact input{
+	background:white;
+	width: 50%;
+border-radius: 50px;
+border-style: ridge;
+padding-left: 20px;
+border-left: 30px;
+
+padding: 18px;
+font-size: 28px;
+
+
+}
+#contact button{
+	background: gray;
+margin-top: 50px;
+padding: 10px;
+border-radius: 90px;
+border-color: yellow;
+
+}
+#contact select{
+	background: gray;
+	background:white;
+	width: 50%;
+border-radius: 100px;
+border-style: ridge;
+padding-left: 50px;
+border-left: 60px;
+
+padding: 18px;
+font-size: 18px;
+}
+#contact button:hover{
+	background-color: red;
+	color: black;
+	border-color: yellow;
+}
+#gallery{
+
+	margin-top: 30px;
+	background: lightblue;
+	height: 60vh;
+}
+#gallery img{
+
+	height: 300px;
+	padding: 30px ;
+}
+#gallery img:hover{
+	background: yellowgreen;
+	color: red;
+}
+
+
+}
